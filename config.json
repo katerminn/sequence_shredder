@@ -1,0 +1,12 @@
+{
+  "vcf": "input/samples_batch1.vcf",
+  "fasta": "input/hg38.fa",
+  "output": "output/consensus",
+  "consensus_length": 1000,
+  "consensus_count": 10,
+  "min_af": 0.05,
+  "start_step": 100,
+  "random_start": true,
+  "max_overlap": 200,
+  "seed": 37
+}
